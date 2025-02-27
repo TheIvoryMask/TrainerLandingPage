@@ -12,11 +12,15 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  height: 25vh;
+  height: 30vh;
   flex-direction: column;
-  background-image: url("/images/gym-interior-background-dumbbells-rack-fitness-workout-room_641010-10239.jpg");
-  background-color: #9a23b3;
+  background-image: url("../images/Mega-Gym-7th-Floor-Shot-1-2048x1152.jpg");
+  background-color: linear-gradient(90deg, #9a23b3 40%, #225dad 100%);
   color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
 .icon-wrapper {
@@ -48,6 +52,7 @@ header {
 .intro {
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 
 .intro-text {
